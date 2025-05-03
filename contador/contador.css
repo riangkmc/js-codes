@@ -1,0 +1,13 @@
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+p {
+    font-size: 18px;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
