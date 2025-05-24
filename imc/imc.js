@@ -10,6 +10,7 @@ document.getElementById("forms").addEventListener("submit", function(e) {
     let imc = peso / altura ** 2;
     imc = imc.toFixed(2);
 
+
     if (imc >= 39.9) {
         alert(`Seu IMC é de ${imc} e você está com obesidade mórbida.`)
     } else if (imc >= 34.9) {

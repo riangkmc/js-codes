@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(29, 129, 96);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    margin-top: 150px;
+}
+#timer{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding:80px 70px;
+    border-radius: 6px;
+    display: grid;
+    justify-content: center;
+}
+#mostrarHora{
+    font-size: 40px;
+    text-align: center;
+}
+
+#botoes{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+}
+
+.pausado{
+    color: red;
+}
