@@ -15,8 +15,8 @@ buttonAumentar.addEventListener("click",function(){
     valorContador +=1
     meuParagrafo.innerHTML = `Contador:${valorContador}`
     if (valorContador >= 10){
-        meuParagrafo.style.color = "red"
         meuParagrafo.innerHTML ="limite atingido!"
+        meuParagrafo.style.color = "red"
         buttonAumentar.disabled = true
     }
 })

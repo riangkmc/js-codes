@@ -29,7 +29,7 @@ function pararRelogio(){
 }
 
 iniciar.addEventListener("click",function(){
-    relogio.classList.remove('pausado')
+    relogio.style.color = "white"
     clearInterval(timer)
     iniciarRelogio()
 })
@@ -37,11 +37,11 @@ iniciar.addEventListener("click",function(){
 
 pausar.addEventListener("click",function(){
     pararRelogio()
-    relogio.classList.add('pausado')
+    relogio.style.color = "red"
 })
 
 zerar.addEventListener("click",function(){
-    relogio.classList.remove('pausado')
+    relogio.style.color = "white"
     clearInterval(timer)
     relogio.innerHTML = "00:00:00"
     segundos = 0
