@@ -1,0 +1,3 @@
+creteElement = cria um elemento em html
+appendChild = Adiciona um elemento filho dentro de outro, criando uma hierarquia (ul => li)
+remove = delete um elemento
